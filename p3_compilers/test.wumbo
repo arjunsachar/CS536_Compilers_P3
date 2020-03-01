@@ -1,2 +1,88 @@
 int x;
-int y;
+bool y;
+void t;
+struct x y;
+struct x z;
+struct x {
+    int x;
+    bool y;
+    void t;
+    struct x y;
+    struct x z;
+};
+void func () {
+}
+void func () {
+    int x;
+}
+void func (int b , int a) {
+    if ((b == (-1))) {
+        x = ((4 + (3 * 5)) - y);
+        while (c) {
+            y = ((y * 2) + x);
+        }
+    }
+    else {
+        x = 0;
+        x = (x + 2);
+        a = c = (((((a > b) && (a < b)) || ((a <= b) && ((!a) >= b))) || (!(a != b))) || ((a + (b * c)) - (((d / e) * k) / (!b))));
+    }
+}
+void func () {
+    x.y = (2 + 2);
+    x++;
+    x--;
+    cin >> x;
+    cin >> x.y;
+    cout << x;
+    cout << x.y;
+    if ((!c)) {
+        bool y;
+        x = (y / (2 + 2));
+        x = (z * 3);
+    }
+    if ((((x < 2) || ((x <= 2) && (x > 0))) || (x >= 1))) {
+        bool y;
+        x = (y / (2 + 2));
+        x = (z * 3);
+    }
+    else {
+        repeat (x) {
+            int x;
+            x = (2 + 2);
+        }
+        return x;
+    }
+    x();
+    y((2 + 2) , 3 , x);
+    if ((x != 5)) {
+        x = true;
+        y = false;
+        x = (-1);
+    }
+    return;
+}
+bool func () {
+    y = (xyz > 1);
+    y = (xyz < 1);
+    y = (xyz >= 1);
+    y = (xyz <= 1);
+    y = (xyz == c);
+    y = (xyz != c);
+    y = (xyz + 2);
+    y = (xyz / 2);
+    y = (xyz * 2);
+    y = (xyz - 2);
+    y = (xyz && c);
+}
+int main () {
+    int la;
+    int nw;
+    cin >> n;
+    while (false) {
+        cin >> num;
+        p.first = num;
+        p.second = i;
+        p = min(x , p);
+    }
+}
