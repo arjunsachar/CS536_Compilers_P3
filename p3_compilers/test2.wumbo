@@ -3,11 +3,13 @@ int a;
 int b; 
 int c; 
 void d;
-struct b c;
-struct xyz;
 bool e; 
 bool f;
 bool g;
+// Checking struct without body
+struct b c;
+struct xyz;
+// Checking struct with body
 struct def {
     int b;
     struct a b;
@@ -15,14 +17,18 @@ struct def {
     int d;
     bool f;
 };
+// Checking function call with no body
 void testFunc () {
 }
+// Checking function call with body
 void testFunc2 () {
     int var1;
     int var2;
     bool x;
 }
+// Checking function with inputs
 void testFunc3 (int param1, int param2, int param 3) {
+    //  Checking if else statement with while
     if((param1 != (200))) { 
         a = ((param1 + (param2 * 3)) - param3);
         b = (a/2);
@@ -35,6 +41,7 @@ void testFunc3 (int param1, int param2, int param 3) {
         b = 10;
     }
 }
+//Checking function with declaration, increment/decrment, literals, read/write, if/else, and func calls
 void testFunc4 () { 
     int x = 10;
     int y = 8;
@@ -74,6 +81,7 @@ void testFunc4 () {
     }
     return;
 }
+//checks boolean values
 bool testFunc5 () { 
     g = (a + b > 1);
     g = (a + b < 1);
@@ -87,6 +95,7 @@ bool testFunc5 () {
     g = (a + b - 2);
     g = (a + b && c);
 }
+//Checks a main method and while
 int main () {
     cin >> n;
     int num1;
