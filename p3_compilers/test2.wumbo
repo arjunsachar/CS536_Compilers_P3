@@ -1,0 +1,97 @@
+int a; 
+int b; 
+int c; 
+void d;
+struct b c;
+struct xyz;
+bool e; 
+bool f;
+bool g;
+struct def {
+    int b;
+    struct a b;
+    void a;
+    int d;
+    bool f;
+};
+void testFunc () {
+}
+void testFunc2 () {
+    int var1;
+    int var2;
+    bool x;
+}
+void testFunc3 (int param1, int param2, int param 3) {
+    if((param1 != (200))) { 
+        a = ((param1 + (param2 * 3)) - param3);
+        b = (a/2);
+        while(b > 50) {
+            b = ((a / 4) - 1;
+        }
+    }
+    else {
+        a = 30;
+        b = 10;
+        a = c = (((((a > b) && (a < b)) || ((a <= b) && ((!a) >= b))) || (!(a != b))) || ((a + (b * c)) - (((d / e) * k) / (!b))));
+    }
+}
+void testFunc4 () { 
+    int x = 10;
+    int y = 8;
+    a--; 
+    a++:
+    a.b = (b + c + 1);
+    cin >> a;
+    cout << b.c;
+    cin >> b.c;
+    cout << a.c;
+    if ((!b)) {
+        void a;
+        bool h; 
+        b = (x / (y + 3));
+        b = b/2;
+    }
+    if ((((b < 10) || ((b <= 10) && (b > 5))) || (b >= 10))) {
+        void a;
+        bool h; 
+        b = (x / (y + 3));
+        b = b/2;
+    }
+    else{
+        repeat(x) {
+            int z;
+            z = (b + 3);
+        }
+        return z;
+    }
+    z();
+    z((2 + 2), 10, x);
+    if ((b == 10)) {
+        e = true;
+        f = false;
+        a = (-24);
+    }
+    return;
+}
+bool testFunc5 () { 
+    g = (a + b > 1);
+    g = (a + b < 1);
+    g = (a + b>= 1);
+    g = (a + b <= 1);
+    g = (a + b == c);
+    g = (a + b != c);
+    g = (a + b + 2);
+    g = (a + b / 2);
+    g = (a + b * 2);
+    g = (a + b - 2);
+    g = (a + b && c);
+}
+int main () {
+    cin >> n;
+    int num1;
+    int num2;
+    while(true) {
+        z.first = num1;
+        z = min(x, p);
+    }
+}
