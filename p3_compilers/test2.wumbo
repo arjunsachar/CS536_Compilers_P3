@@ -32,7 +32,6 @@ void testFunc3 (int param1, int param2, int param 3) {
     else {
         a = 30;
         b = 10;
-        a = c = (((((a <= b) && ((!a) >= b))) || ((a == b)) || (!(a != b))) || ((c + (a * b)) - (((f / e) * k) / (!g))));
     }
 }
 void testFunc4 () { 
@@ -50,6 +49,7 @@ void testFunc4 () {
         bool h; 
         b = (x / (y + 3));
         b = b/2;
+        a = c = (((((a <= b) && ((!a) >= b))) || ((a == b)) || (!(a != b))) || ((c + (a * b)) - (((f / e) * k) / (!g))));
     }
     if ((((b < 10) || ((b <= 10) && (b > 5))) || (b >= 10))) {
         void a;
