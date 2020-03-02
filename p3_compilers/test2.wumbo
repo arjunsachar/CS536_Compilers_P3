@@ -1,3 +1,4 @@
+// Checking normal inputs (bool, int, string, etc..)
 int a; 
 int b; 
 int c; 
