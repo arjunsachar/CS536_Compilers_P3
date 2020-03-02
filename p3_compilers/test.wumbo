@@ -1,8 +1,11 @@
+// Checking normal inputs (bool, int, string, etc..)
 int x;
 bool y;
 void t;
+// Checking struct without body
 struct x y;
 struct x z;
+// Checking struct with body
 struct x {
     int x;
     bool y;
@@ -10,12 +13,16 @@ struct x {
     struct x y;
     struct x z;
 };
+// Checking function call with no body
 void func () {
 }
+// Checking function call with body
 void func () {
     int x;
 }
+// Checking function with inputs
 void func (int b , int a) {
+//  Checking if else statement with while
     if ((b == (-1))) {
         x = ((4 + (3 * 5)) - y);
         while (c) {
